@@ -1,8 +1,7 @@
-h2{
-	padding: 5vh;
+h1{
+	margin: 10vh 0;
 }
 h3{
-	padding:0 5vh 0 5vh;
 	color: #0178bd;
 }
 h4{
@@ -48,4 +47,7 @@ progress {
   progress::-webkit-progress-value {
 	background: #0178bd;
   }
+.result{
+	padding: 3vh;
+}
   
