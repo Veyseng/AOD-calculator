@@ -24,29 +24,6 @@ h4{
 	color:  #0178bd;
 	border-color: #0178bd;
 }
-
-.progress{
-	visibility: hidden;
-	background-color: #ffffff;
-	border: 0;
-	height: 18px;
-	background: white;
-}
-progress {
-	color: lightblue;
-  }
-  
-  progress::-webkit-progress-value {
-	background: lightblue;
-  }
-  
-  progress::-moz-progress-bar {
-	background: lightcolor;
-  }
-  
-  progress::-webkit-progress-value {
-	background: #0178bd;
-  }
 .result{
 	padding: 3vh;
 }
