@@ -1,0 +1,14 @@
+h1{
+	padding: 10vh;
+	display: inline-block;
+}
+.btn{
+	margin: 1vh;
+	padding: 1vh;
+	color: white;
+	background-color: #0178bd;
+}
+.btn:hover{
+	background-color: white;
+	color:  #0178bd;
+}
