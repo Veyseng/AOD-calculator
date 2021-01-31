@@ -7,7 +7,7 @@ document.querySelector('.btn').addEventListener('click',function(){
 		const eff = aod * 48;
 		const rev = eff * 1000 * 40000;
 		document.querySelector(".efficiency").textContent = `The Loss of Efficiency is ${eff}% with ${aod} AOD value`;
-		document.querySelector(".revenue").textContent = `The Loss of Revenue is ${rev} US Dollars / Year`;	
+		document.querySelector(".revenue").textContent = `The Loss of Revenue is ${rev} US Dollars / Year (According to 100 gigawatt output)`;	
 		
 	}else{
 		document.querySelector(".efficiency").textContent = `Invalid data`;
