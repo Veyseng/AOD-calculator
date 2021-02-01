@@ -4,7 +4,7 @@ document.querySelector('.loss-btn').addEventListener('click',function(){
 	const aod = document.getElementById("InputAOD").value;
 	if(aod <= 1 && aod >=0){
 		//Calculate loss efficiency 
-		const eff = aod * 4;
+		const eff = aod * 48;
 		//Calculate the loss revenue by knowing the loss efficiency
 		const rev = eff * 1000 * 40000;
 		//Display the loss efficiency and AOD value
