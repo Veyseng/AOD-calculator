@@ -31,10 +31,10 @@ document.querySelector('.num-panel-btn').addEventListener('click',function(){
 		if(sunlight >= 0 && sunlight <= 24){
 			if(wattageOption == wattOption[0]){
 				numPanel = Math.ceil((EnergyReq * sunlight) / wattOption[0]);
-				document.querySelector(".number-panel-output").textContent = `The number of Solar Panels based on your requirement : ${numPanel}`;
+				document.querySelector(".number-panel-output").textContent = `The number of Solar Panels based on your requirement : ${numPanel} panels`;
 			}else if(wattageOption == wattOption[1]){
 				numPanel = Math.ceil((EnergyReq * sunlight) / wattOption[1]);
-				document.querySelector(".number-panel-output").textContent = `The number of Solar Panels based on your requirement : ${numPanel}`;
+				document.querySelector(".number-panel-output").textContent = `The number of Solar Panels based on your requirement : ${numPanel} panels`;
 			}
 		}else{
 			document.querySelector(".number-panel-output").textContent = `Invalid Sunlight Peak`;
