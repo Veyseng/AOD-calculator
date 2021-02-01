@@ -19,14 +19,38 @@
 		  <form id='form'>
 			<div class="form-group" >
 			  <label for="inputTitle">Avg. AOD data of year</label>
-			  <input type="text" class="form-control" name="name" id="Input" placeholder="AOD data value need to be in between 0 - 1">
-			  <button type="button" class="btn btn-primary">Calculate</button>
+			  <input type="text" class="form-control" name="name" id="InputAOD" placeholder="AOD data value need to be in between 0 - 1">
+			  <button type="button" class="btn loss-btn btn-primary">Calculate</button>
 			</div>
 		  </form>   
 		</div>  
 		<div class="row justify-content-center align-items-center result">
 			<h4 class="efficiency"></h4>
 			<h4 class="revenue"></h4>
+		</div>
+	</div>
+	<div class="container">
+		<h5>Calculate Number of Panels</h5>
+		<div class="row justify-content-center align-items-center">
+		  <form id='form'>
+			<div class="form-group" >
+				
+			  <label for="inputTitle">Energy Requirement Per Hour </label>
+			  <input type="text" class="form-control" name="name" id="InputEnergyReq" placeholder="The energy per hour need to be greater than 0">
+			  <label for="inputTitle">Peak hours sunlight</label>
+			  <input type="text" class="form-control" name="name" id="InputSunlight" placeholder="Peak hours need to be in between 0 - 24">
+			  <label for="inputTitle">Panel Wattage</label>
+			  <select id="wattage-option" class="form-select" aria-label="Default select example">	
+				<option  selected>Select a option</option>
+					<option value="150">Low wattage 150</option>
+					<option value="350">High wattage 350</option>
+				</select>
+			  <button type="button" class="btn num-panel-btn btn-primary">Calculate</button>
+			</div>
+		  </form>   
+		</div>  
+		<div class="row justify-content-center align-items-center result">
+			<h4 class="number-panel-output"></h4>
 		</div>
 	</div>
 	<script src="./assets/script.js"></script>
