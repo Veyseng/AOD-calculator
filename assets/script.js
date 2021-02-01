@@ -17,7 +17,6 @@ document.querySelector('.loss-btn').addEventListener('click',function(){
 		document.querySelector(".revenue").textContent = ``;
 	}
 });
-
 //Calculate the number of panel need to use
 document.querySelector('.num-panel-btn').addEventListener('click',function(){
 	const sunlight = document.getElementById("InputSunlight").value;
