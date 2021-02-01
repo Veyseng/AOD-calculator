@@ -1,7 +1,7 @@
 "use strict";
 //Calculate the loss of efficiency and the revenue
 document.querySelector('.loss-btn').addEventListener('click',function(){
-	var aod = document.getElementById("InputAOD").value;
+	const aod = document.getElementById("InputAOD").value;
 	if(aod <= 1 && aod >=0){
 		//Calculate loss efficiency 
 		const eff = aod * 4;
@@ -10,7 +10,7 @@ document.querySelector('.loss-btn').addEventListener('click',function(){
 		//Display the loss efficiency and AOD value
 		document.querySelector(".efficiency").textContent = `The Loss of Efficiency is ${eff}% with ${aod} AOD value`;
 		//Display the loss of revenue in USD in a year by assummig that the overall energy is 100 gigawatt output of energy
-		document.querySelector(".revenue").textContent = `The Loss of Revenue is ${rev} US Dollars / Year (According to 100 gigawatt output)`;
+		document.querySelector(".revenue").textContent = `The Loss of Revenue is ${rev} US Dollars / Year (According to 1 gigawatt output)`;
 	}else{
 		//display invalid data
 		document.querySelector(".efficiency").textContent = `Invalid data`;

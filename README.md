@@ -1,2 +1,3 @@
 # AOD-calculator
-AOD calculator to measure the loss and the efficiency
+Calculator to measure the loss of efficiency and revenue
+Calculator to measure the number of solar panels
