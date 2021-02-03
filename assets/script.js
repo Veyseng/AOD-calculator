@@ -41,8 +41,6 @@ document.querySelector('.num-panel-btn').addEventListener('click',function(){
 	}else{
 		document.querySelector(".number-panel-output").textContent = `Invalid Energy Value`;
 	}
-	
 });
-
 
 
